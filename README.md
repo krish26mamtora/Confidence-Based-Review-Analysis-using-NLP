@@ -32,9 +32,8 @@ All similarity scores were **scaled between 1 and 5** to match the scale of the 
 
 ### 🔍 Inference
 
-- All models showed **negative correlation** with actual confidence scores.
-- This suggests that user confidence may depend on **more subjective or external factors**, not just semantic similarity.
-- Simple models like Jaccard performed worse, while even advanced models like BERT/SciBERT didn’t show meaningful positive correlation.
+-The analysis revealed that semantic similarity alone may not be a strong predictor of user confidence in research paper reviews.
 
+-Despite using both traditional (Jaccard) and advanced NLP models (BERT, SciBERT), the correlations with actual confidence scores remained weak.
 
-
+-This highlights that user confidence is likely influenced by subjective factors such as prior knowledge, writing clarity, or perceived credibility, which are not fully captured through text similarity.
