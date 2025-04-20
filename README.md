@@ -1,4 +1,4 @@
-# 🧠 Paper Review Confidence Scorer using NLP
+# Paper Review Confidence Scorer using NLP
 
 This project explores the use of NLP models to understand how well user reviews on research papers align with their given confidence scores (rated 1 to 5).
 
